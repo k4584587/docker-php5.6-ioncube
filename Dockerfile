@@ -27,7 +27,5 @@ RUN apt-get install -y tzdata \
 
 RUN a2enmod rewrite
 
-ADD scripts/chmod.sh /chmod.sh
-
 # php.ini
 COPY config/php.ini /usr/local/etc/php/
