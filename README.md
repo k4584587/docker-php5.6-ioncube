@@ -3,5 +3,5 @@ php5.6 + ioncube Dockerfile
 
 # Docker compose Build
 ```
-docker-compose -d --build
+docker-compose up -d --build
 ```
